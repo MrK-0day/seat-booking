@@ -1,0 +1,41 @@
+@import '~antd/dist/antd.css';
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'ABeeZee', sans-serif;
+}
+/* For Mobile Portrait */
+@media only screen and (max-width: 768px) {
+  .box-between {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  .box-panel {
+    min-width: 210px;
+  }
+}
+
+/* For Desktop */
+@media only screen and (min-width: 768px) {
+  .box-between {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  .box-panel {
+    min-width: 210px;
+  }
+}
